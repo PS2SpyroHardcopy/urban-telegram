@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>0ftoirhgbfysfdugfi</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="main">
+  <ul>
+    <li v-for="soda in sodaList" v-bind:class = "{redOutline:soda.calories>100}" v-bind:style="{ backgroundColor: soda.color}">
+      {{soda.name + soda.calories}}
+    </li>
+  </ul>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
